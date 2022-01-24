@@ -1,5 +1,47 @@
+
+
+
 *{
   
   font-family: 'Roboto', sans-serif;
-  background-color: #b34700;
+  background-image: url("https://www.tierlists.com/cover_img/4f06c9e6-3748-4478-bbeb-540571ab3c4eminecraft-server-tierlist.jpeg");
+}
+
+.txt{
+align-self: center;
+  height: 100px;
+width: 150px;
+border-color: blueviolet;
+}
+.button2{
+  height: 100px;
+  width: 150px;
+  border-color: blue;
+}
+.button3{
+  height: 100px;
+  width: 150px;
+  border-color: red;
+}
+.button{
+
+  height: 100px;
+  width: 150px;
+  border-color:yellow;
+}
+
+#up-arrow,#down-arrow{
+  width: 100px;
+  height: 100px;
+}
+#total-count{
+  font-weight: 900;
+  font-size: 70px;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
