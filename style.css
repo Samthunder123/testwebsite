@@ -14,9 +14,16 @@ width: 75px;
 border-color: blueviolet;
 }
 .button2{
-  height: 50px;
-  width: 75px;
-  border-color: blue;
+  background: none;
+    border: 1px solid green;
+    font-size: 23px;
+    padding: 10px 20px;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
 }
 .button3{
   height: 50px;
