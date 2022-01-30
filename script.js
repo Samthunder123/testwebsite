@@ -25,6 +25,6 @@ function incrementValue()
    }
 
    function RemoveText() {
-  document.getElementById('smth').innerHTML = null;
+  document.getElementById('smth').innerHTML = "";
 
    }

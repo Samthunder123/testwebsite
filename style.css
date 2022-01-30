@@ -66,12 +66,12 @@ border-color: blueviolet;
 .btn{
   background: none;
   border: 1px solid olive;
-  font-size: 12.5px;
-  padding: 5px 10px;
+  font-size: 23px;
+  padding: 10px 20px;
   font-family: "montserrat";
   cursor: pointer;
-  margin: 5px;
-  transition: 0.4s;
+  margin: 10px;
+  transition: 0.8s;
   position: relative;
   overflow: hidden;
 }
