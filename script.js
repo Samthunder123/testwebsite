@@ -16,10 +16,10 @@ function incrementValue()
    function promptMotion() {
        let name = prompt("Whats your name?");
        if(name = "Samuel"){
-           onclick.redirectTo(spengergasse.at)
+        open("https://www.spengergasse.at/");
 
        } else {
-        console.log("We have a new Visitor :" + name);
+        document.getElementById('smth').innerHTML = name;
 
        }
    }
