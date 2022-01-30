@@ -27,7 +27,7 @@ function incrementValue()
 
                 }
                 if(j == 3 && name != arr[i]){
-                    self.close();
+                   window.close();
                 } 
             }
                 
