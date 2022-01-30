@@ -62,6 +62,19 @@ border-color: blueviolet;
     position: relative;
     overflow: hidden;
 }
+
+.btn{
+  background: none;
+  border: 1px solid olive;
+  font-size: 12.5px;
+  padding: 5px 10px;
+  font-family: "montserrat";
+  cursor: pointer;
+  margin: 5px;
+  transition: 0.4s;
+  position: relative;
+  overflow: hidden;
+}
 #up-arrow,#down-arrow{
   width: 100px;
   height: 100px;
