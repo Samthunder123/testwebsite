@@ -22,6 +22,7 @@ function incrementValue()
         for(let i = 0; i < arr.length; i++){   
             if(name == arr[i]){
             open("https://www.spengergasse.at/");
+            document.getElementById('smth').innerHTML = "";
 
                  } else {
                 document.getElementById('smth').innerHTML = input;
