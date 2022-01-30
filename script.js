@@ -35,3 +35,14 @@ function incrementValue()
   document.getElementById('smth').innerHTML = "";
 
    }
+
+   function Login() {
+    let arr = new Array("Samuel" , "Milos" , "Sid");
+    let sarr = new Array("Fetene" , "Simic" , "Khadka");
+    for(let i = 0; i < arr.length; i++) {
+        if('uname' == arr[i] && 'psw'== sarr[i]) {
+            open("https://www.spengergasse.at/")
+        }
+    }
+
+   }
