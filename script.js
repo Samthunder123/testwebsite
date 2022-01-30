@@ -15,7 +15,7 @@ function incrementValue()
 
    function promptMotion() {
        let name = prompt("Whats your name?");
-       if(name = "Samuel"){
+       if(prompt = "Samuel"){
         open("https://www.spengergasse.at/");
 
        } else {
