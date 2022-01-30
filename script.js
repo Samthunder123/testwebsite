@@ -14,8 +14,11 @@ function incrementValue()
    }
 
    function promptMotion() {
-       let name = prompt("Whats your name?");
-       if(name == "Samuel"){
+      
+    let arr = new Array("Samuel" , "Matteo" , "Milos" , "Sid" , "Enzo" , "Luka");
+    let name = prompt("Whats your name?");
+    for(let i = 1; i < arr.length; i++){   
+    if(name == arr[i]){
         open("https://www.spengergasse.at/");
 
        } else {
@@ -23,6 +26,7 @@ function incrementValue()
 
        }
    }
+}
 
    function RemoveText() {
   document.getElementById('smth').innerHTML = "";
