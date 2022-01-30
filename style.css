@@ -26,15 +26,29 @@ border-color: blueviolet;
     overflow: hidden;
 }
 .button3{
-  height: 50px;
-  width: 75px;
-  border-color: red;
+  background: none;
+    border: 1px solid red;
+    font-size: 23px;
+    padding: 10px 20px;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
 }
 .button{
 
-  height: 50px;
-  width: 75px;
-  border-color:yellow;
+  background: none;
+    border: 1px solid blue;
+    font-size: 23px;
+    padding: 10px 20px;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
 }
 
 #up-arrow,#down-arrow{
