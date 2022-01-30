@@ -23,3 +23,8 @@ function incrementValue()
 
        }
    }
+
+   function RemoveText() {
+  document.getElementById('smth').innerHTML = null;
+
+   }
