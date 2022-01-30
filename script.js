@@ -17,13 +17,14 @@ function incrementValue()
       
     let arr = new Array("Samuel" , "Matteo" , "Milos" , "Sid" , "Enzo" , "Luka");
     let name = prompt("Whats your name?");
+    let input = name;
   
         for(let i = 0; i < arr.length; i++){   
             if(name == arr[i]){
             open("https://www.spengergasse.at/");
 
                  } else {
-                document.getElementById('smth').innerHTML = name;
+                document.getElementById('smth').innerHTML = input;
 
                 }
                 
