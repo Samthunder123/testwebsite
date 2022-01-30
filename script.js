@@ -18,7 +18,7 @@ function incrementValue()
     let arr = new Array("Samuel" , "Matteo" , "Milos" , "Sid" , "Enzo" , "Luka");
     let name = prompt("Whats your name?");
    for(let j = 1; j <= 3; j++){
-        for(let i = 1; i < arr.length; i++){   
+        for(let i = 0; i < arr.length; i++){   
             if(name == arr[i]){
             open("https://www.spengergasse.at/");
 
@@ -26,9 +26,7 @@ function incrementValue()
                 document.getElementById('smth').innerHTML = name;
 
                 }
-                if(j == 3 && name != arr[i]){
-                   window.close();
-                } 
+                
             }
                 
 }
