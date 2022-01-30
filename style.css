@@ -75,6 +75,20 @@ border-color: blueviolet;
   position: relative;
   overflow: hidden;
 }
+
+.txt {
+  background: none;
+  border: 1px solid purple;
+  font-size: 23px;
+  padding: 10px 20px;
+  font-family: "montserrat";
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+
+}
 #up-arrow,#down-arrow{
   width: 100px;
   height: 100px;

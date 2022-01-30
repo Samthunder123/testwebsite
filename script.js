@@ -19,13 +19,11 @@ function incrementValue()
     let name = prompt("Whats your name?");
     let input = name;
   
-        for(let i = 0; i < arr.length; i++){   
+        for(let i = 0; i < arr.length; i++){
             if(name == arr[i]){
             open("https://www.spengergasse.at/");
-            document.getElementById('smth').innerHTML = "";
-
                  } else {
-                document.getElementById('smth').innerHTML = input;
+                document.getElementById('smth').innerHTML = name;
 
                 }
                 
