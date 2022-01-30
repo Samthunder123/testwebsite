@@ -30,7 +30,7 @@ function incrementValue()
                     self.close();
                 } 
             }
-                i
+                
 }
    }
    function RemoveText() {
