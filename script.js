@@ -21,7 +21,7 @@ function incrementValue()
   
         for(let i = 0; i < arr.length; i++){
             if(name == arr[i]){
-            open("https://www.spengergasse.at/");
+                open("https://www.spengergasse.at/");
                  } else {
                 document.getElementById('smth').innerHTML = name;
 
