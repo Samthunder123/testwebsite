@@ -12,3 +12,14 @@ function incrementValue()
     value--;
     document.getElementById('number').value = value;
    }
+
+   function promptMotion() {
+       let name = prompt("Whats your name?");
+       if(name = "Samuel"){
+           onclick.redirectTo(spengergasse.at)
+
+       } else {
+        console.log("We have a new Visitor :" + name);
+
+       }
+   }
