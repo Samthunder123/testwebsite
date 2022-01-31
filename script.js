@@ -24,7 +24,7 @@ function incrementValue()
                 open("https://www.spengergasse.at/");
                  }
             if(name != arr[i]){
-                document.getElementById('smth').innerHTML = name;
+                document.getElementById('smth').innerHTML = input;
             }
                 
             }
