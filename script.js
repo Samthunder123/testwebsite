@@ -15,25 +15,28 @@ function incrementValue()
 
    function promptMotion() {
       
-    let arr = new Array("samuel" , "admin" , "Samuel" , "Admin");
+    let arr = new Array("samuel" , "root" , "Samuel" , "Root");
     let name = prompt("Whats your name?");
+    let pass = new Array("Samthunder123", "admin" , "Administrator");
+    let password = prompt("Add your Password")
     let input = name;
     let status = false;
   
         for(let i = 0; i < arr.length; i++){
-            if(name == arr[i]){
+            if(name == arr[i] && password == pass[i]){
                 open("https://www.spengergasse.at/");
                 status = true;
                 break;
                  }
-            if(name != arr[i]){
+            if(name != arr[i] && password != pass[i] ){
 
                 status = false;
             }
                 
             }
         if(status === false){
-            document.getElementById('smth').innerHTML = input;
+            document.getElementById('smth').innerHTML = "Username :" + name 
+                                                        "Password :" + password;
         }
                 
 
