@@ -23,20 +23,20 @@ function incrementValue()
     let status = false;
   
         for(let i = 0; i < arr.length; i++){
-            if(name == arr[i] && password == pass[i]){
+            if(name == arr[i]){
                 open("https://www.spengergasse.at/");
                 status = true;
                 break;
                  }
-            if(name != arr[i] && password != pass[i] ){
+            if(name != arr[i] ){
 
                 status = false;
             }
                 
             }
         if(status === false){
-            document.getElementById('smth').innerHTML = "Username :" + name 
-                                                        "Password :" + password;
+            document.getElementById('smth').innerHTML = "Username : " + name
+                                                        
         }
                 
 
