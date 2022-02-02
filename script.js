@@ -15,7 +15,7 @@ function incrementValue()
 
    function promptMotion() {
       
-    let arr = new Array("Samuel" , "Matteo" , "Milos" , "Sid" , "Enzo" , "Luka");
+    let arr = new Array("samuel" , "admin" , "Samuel" , "Admin");
     let name = prompt("Whats your name?");
     let input = name;
     let status = false;
