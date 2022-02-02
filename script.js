@@ -18,7 +18,7 @@ function incrementValue()
     let arr = new Array("samuel" , "root" , "Samuel" , "Root");
     let name = prompt("Whats your name?");
     let pass = new Array("Samthunder123", "admin" , "Administrator");
-    let password = prompt("Add your Password")
+   
     let input = name;
     let status = false;
   
@@ -35,7 +35,7 @@ function incrementValue()
                 
             }
         if(status === false){
-            document.getElementById('smth').innerHTML = "Username : " + name
+            document.getElementById('smth').innerHTML = "Misinput : " + name
                                                         
         }
                 
