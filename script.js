@@ -18,16 +18,23 @@ function incrementValue()
     let arr = new Array("Samuel" , "Matteo" , "Milos" , "Sid" , "Enzo" , "Luka");
     let name = prompt("Whats your name?");
     let input = name;
+    let status = false;
   
         for(let i = 0; i < arr.length; i++){
             if(name == arr[i]){
                 open("https://www.spengergasse.at/");
+                status = true;
+                break;
                  }
             if(name != arr[i]){
-                document.getElementById('smth').innerHTML = input;
+
+                status = false;
             }
                 
             }
+        if(status === false){
+            document.getElementById('smth').innerHTML = input;
+        }
                 
 
    }
