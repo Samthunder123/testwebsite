@@ -56,3 +56,8 @@ function incrementValue()
     }
 
    }
+
+   function openPage() {
+    open("https://www.bbc.com/")
+
+   }
